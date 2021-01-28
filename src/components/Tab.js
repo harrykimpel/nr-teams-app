@@ -32,7 +32,7 @@ class Tab extends React.Component {
   render() {
 
       let userName = Object.keys(this.state.context).length > 0 ? this.state.context['upn'] : "";
-
+      console.log('userName: ' + userName);
       return (
       <div>
         <h3>Hello World!</h3>
